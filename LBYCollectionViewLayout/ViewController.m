@@ -32,12 +32,12 @@
     }
     
     LBYCollectionViewLayout *layout = [[LBYCollectionViewLayout alloc] init];
-    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    layout.scrollDirection = UICollectionViewScrollDirectionVertical;
     layout.itemSize = CGSizeMake(60, 60);
     layout.minimumLineSpacing = 10;
     layout.minimumInteritemSpacing = 10;
     layout.fixedSpacing = NO;
-    layout.sectionInset = UIEdgeInsetsMake(16, 16, 16, 16);
+    layout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 16);
     layout.headerReferenceSize = CGSizeZero;
     layout.footerReferenceSize = CGSizeZero;
     
